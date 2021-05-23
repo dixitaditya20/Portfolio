@@ -1,0 +1,56 @@
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn {
+  padding: 0.8rem 3rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: #3dcfd3;
+  color: black;
+}
+
+.btn-primary:hover {
+  background: transparent;
+  border-color: #3dcfd3;
+  color: #3dcfd3;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #3dcfd3;
+  border-color: #3dcfd3;
+}
+
+.btn-secondary:hover {
+  background: #3dcfd3;
+  color: #161616;
+}
+
+.flex-1 {
+  flex: 1;
+}
