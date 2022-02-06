@@ -77,6 +77,11 @@ header nav .branding {
   margin-right: 3rem;
 }
 
+
+header nav .branding :hover{
+  margin-right: 3rem;
+}
+
 .hero {
   padding: 3rem 0;
 }
